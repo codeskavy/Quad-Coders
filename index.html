@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportfolio.com</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+           <h1 id="logo"><span>K</span>anika.</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Kanika </span><br>Verma from Delhi </h1>
+ </div> 
+ <!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img alt="" src="/user.jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quam provident vitae maiores error cupiditate, 
+                    fugiat harum sunt ad. Ut expedita fuga voluptatum quasi in commodi quod adipisci omnis? Placeat.</p>
+                <div class="tab-titles">
+                    <div class="tab-links active-link" onclick="opentab(event,'skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab(event,'experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab(event,'education')">Education</div>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Deep Learning</span><br>ML and DL projects</li>
+                        <li><span>Web development</span><br>Web App development</li>
+                        <li><span>Data Structures and Algorithms</span><br>C++ and C</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-24</span><br>Assisted proff rahul thakur under research</li>
+                        <li><span>Currently</span><br>Creating projects under StartupX</li>
+                        <li><span>2022-24</span><br>Participated in online contests i.e. Leetcode</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Deep learning from kaggle</li>
+                        <li><span>2024</span><br>Web development from cousera</li>
+                       
+                        <li><span>2022</span><br>DSA at delhi technological University</li>  
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div class="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h1>Web design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque officia, adipisci perspiciatis reprehenderit officiis quo
+                    s perferendis earum alias a laudantium labore ad dicta maiores, quo vitae, rem eius. Corporis, consequuntur?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h1>Deep learning</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque officia, adipisci perspiciatis reprehenderit officiis quo
+                    s perferendis earum alias a laudantium labore ad dicta maiores, quo vitae, rem eius. Corporis, consequuntur?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h1>Dsa</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque officia, adipisci perspiciatis reprehenderit officiis quo
+                    s perferendis earum alias a laudantium labore ad dicta maiores, quo vitae, rem eius. Corporis, consequuntur?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to talented people around the world.Download from playstore now.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to talented people around the world.Download from playstore now.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to talented people around the world.Download from playstore now.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kanikaverma0510@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7303XXXXXX</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                   
+                </div>
+                <a href="/admit card 4th sem.pdf" download="" class="btn btn2">Download Cv</a>
+              
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; made with &hearts;by kanika</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(event,tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
