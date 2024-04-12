@@ -1,6 +1,7 @@
 body {
-    background-color: #000;
-    color: #fff;
+    background-image: url('login.jpg');
+    background-size:cover;
+    color: black;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -10,7 +11,7 @@ body {
   }
   
   .login-container {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color:rgb(255, 255, 255);
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -29,9 +30,9 @@ body {
     width: 100%;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
     background: transparent;
-    color: #fff;
+    color:black;
     font-size: 16px;
   }
   
@@ -58,7 +59,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #007bff;
-    color: #fff;
+    color:black;
     cursor: pointer;
     font-size: 16px;
   }
