@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Booking</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Bus Booking</h2>
+    <form id="booking-form">
+      <div class="form-group">
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" required>
+      </div>
+      <div class="form-group">
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="passengers">Passengers:</label>
+        <input type="number" id="passengers" name="passengers" min="1" max="10" required>
+      </div>
+      <div class="form-group">
+        <label for="ticket-type">Ticket Type:</label>
+        <select id="ticket-type" name="ticket-type" required>
+          <option value="one-way">One Way</option>
+          <option value="round-trip">Round Trip</option>
+        </select>
+      </div>
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</body>
+</html>
