@@ -72,7 +72,9 @@ nav ul li a:hover::after{
     font-size:60px;
     margin-top:20px;
 }
-
+.sub-title span{
+    color:#EF0107  
+}
 .header-text h1 span{
     color:#EF0107
 }
@@ -163,7 +165,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div{
-    background-color: #262626;
+    background-color:#32221b;
     padding:40px;
     font-size: 13px;
     font-weight: 300;
