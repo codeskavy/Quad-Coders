@@ -334,8 +334,8 @@ nav ul li a:hover::after{
     width: 100%;
 }
 #map {
-    height: 200px;
-    width: 100%;
+    height: 400px;
+    width: 400px;
 }
 
 form input,form textarea{
@@ -368,10 +368,13 @@ form btn{
 
 .login {
     text-align: center;
+    display:grid;
+    justify-content: center;
+    align-items:center;
 }
 
 .form {
-    background-color: #fff;
+    background-color: whitesmoke;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -399,6 +402,7 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+
 
 button:hover {
     background-color: #45a049;
