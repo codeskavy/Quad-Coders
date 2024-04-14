@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel = "stylesheet" href = "my-app/style.css">
+    <script src = "main.js"></script>
 
 </head>
 <body>
@@ -169,8 +170,8 @@
                     <input type="text" name="Name" placeholder="Start Destination" required>
                     <input type="text" name="Email" placeholder="End Destination" required>
                     <h1> Your location</h1>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.9974438848108!2d77.11578627489362!3d28.749493275601044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0138a74f7da7%3A0xf09fad683c23bd5d!2sDelhi%20Technological%20University!5e0!3m2!1sen!2sin!4v1712917919250!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <iframe id="map-container" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="YOUR_MAP_URL"></iframe>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13993.322408599332!2d77.11399785!3d28.739544699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712958058735!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    <iframe id="map-container" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="YOUR_MAP_URL"></iframe>
                     <button type="submit" class="btn btn2">Submit</button>
 
                 </form>
@@ -188,6 +189,7 @@
 
 
 <script>
+    
     var tablinks=document.getElementsByClassName("tab-links");
     var tabcontents=document.getElementsByClassName("tab-contents");
     function opentab(event,tabname){
@@ -204,5 +206,7 @@
     
 
 </script>
+<div id="map"></div>
+<script type="module" src="main.js"></script>
 </body>
 </html>

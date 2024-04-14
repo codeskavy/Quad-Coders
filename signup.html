@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup page</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Signup</h2>
+    <form id="login-form">
+      <div class="form-group">
+        <input type="text" id="username" name="username" required>
+        <label for="username">Username</label>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" name="password" required>
+        <label for="password">Password</label>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <div class="signup-link">
+      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+    <div class="google-login">
+      <p>Or login with:</p>
+      <button onclick="googleLogin()">Login with Google</button>
+    </div>
+  </div>
+
+  <!-- Google Sign-In JavaScript library -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script>
+    function googleLogin() {
+      // Implement Google Sign-In logic here
+      console.log("Logging in with Google...");
+    }
+  </script>
+</body>
+</html>
